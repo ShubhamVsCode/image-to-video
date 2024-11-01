@@ -1,0 +1,20 @@
+{
+  "name": "node-server",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.682.0",
+    "@hono/node-server": "^1.13.4",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "hono": "^4.6.8",
+    "node-fetch": "^3.3.2",
+    "uuid": "^11.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
